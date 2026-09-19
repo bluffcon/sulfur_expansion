@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "consumable": {
+                  "consume_seconds": 0.8,
+                  "has_consume_particles": false,
+                  "animation": "trident",
+                  "sound": "entity.sulfur_cube.bounce"
+                },
+                "rarity": "common",
+                "max_stack_size": 64,
+                "item_model": "arbiterlib:sulfur_expansion/hydrated_sulfur_ball",
+                "item_name": {
+                  "translate": "item.sulfur_expansion.hydrated_sulfur_ball"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "sulfur_expansion",
+                    "id": "water"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.sulfur_expansion.hydrated_sulfur_ball.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "id.sulfur_expansion",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "arbiterlib": {
+                                "id": "water",
+                                "namespace": "sulfur_expansion"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sulfur_expansion:trigger/hydrated_sulfur_ball"
+    }
+}

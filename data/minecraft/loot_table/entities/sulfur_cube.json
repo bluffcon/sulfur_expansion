@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+                {
+                    "type": "minecraft:inverted",
+                    "term": {
+                    "type": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "source_entity": {"entity_type": "frog"}
+                    }
+                    }
+                }
+            ]
+          },
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": -2
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ],
+          "value": "sulfur_expansion:sulfur_ball"
+        },
+        {
+            "type": "loot_table",
+            "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+                {
+                    "type": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "source_entity": {"entity_type": "frog"}
+                    }
+                }
+            ]
+          },
+          "value": "sulfur_expansion:froglight_sulfate"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/sulfur_cube"
+}

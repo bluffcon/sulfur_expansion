@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "arbiterlib": {
+                                "id": "small_sulfur_cube",
+                                "namespace": "sulfur_expansion"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sulfur_expansion:trigger/spawn_small_cube"
+    }
+}

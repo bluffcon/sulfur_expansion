@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "common",
+                "max_stack_size": 64,
+                "item_model": "arbiterlib:sulfur_expansion/cinnabar_feed",
+                "item_name": {
+                  "translate": "item.sulfur_expansion.cinnabar_feed"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "sulfur_expansion",
+                    "id": "cinnabar_feed"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.sulfur_expansion.cinnabar_feed.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "id.sulfur_expansion",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

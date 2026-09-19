@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sulfur_cube_spawn_egg",
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "entity_data": {
+                "id": "item_display",
+                "Tags": [
+                  "arbiterlib.block"
+                ],
+                "data": {
+                  "arbiterlib": {
+                    "block": {
+                      "namespace": "sulfur_expansion",
+                      "function": "sulfur_expansion:block/froglight_sulfate/spawn",
+                      "drop_loottable": "sulfur_expansion:froglight_sulfate",
+                      "id": "froglight_sulfate"
+                    },
+                    "id": "froglight_sulfate",
+                    "namespace": "sulfur_expansion"
+                  }
+                },
+                "item": {
+                  "id": "crafting_table",
+                  "components": {
+                    "item_model": "arbiterlib:sulfur_expansion/froglight_sulfate"
+                  }
+                },
+                "brightness": {
+                  "block": 15,
+                  "sky": 0
+                },
+                "transformation": {
+                  "left_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "right_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "scale": [
+                    1.001,
+                    1.001,
+                    1.001
+                  ],
+                  "translation": [
+                    0.0,
+                    0.5,
+                    0.0
+                  ]
+                },
+                "Rotation": [
+                  0,
+                  0
+                ],
+                "glow_color_override": 16712194
+              },
+              "item_model": "arbiterlib:sulfur_expansion/froglight_sulfate",
+              "item_name": {
+                "translate": "block.sulfur_expansion.froglight_sulfate"
+              },
+              "custom_data": {
+                "arbiterlib": {
+                  "namespace": "sulfur_expansion",
+                  "id": "froglight_sulfate"
+                }
+              },
+              "lore": [
+                {
+                  "translate": "block.sulfur_expansion.froglight_sulfate.description",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "id.sulfur_expansion",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

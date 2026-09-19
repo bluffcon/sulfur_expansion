@@ -1,0 +1,7 @@
+advancement revoke @s only sulfur_expansion:on_used_hydrated_sulfur_ball
+execute positioned ~ ~1.6 ~ run function arbiterlib:lib/ray/step_0_25_fragile_fluid_with_macro_amount {amount:18}
+
+execute at @e[type=marker,tag=arbiterlib.ray.entry,distance=..5] if block ~ ~ ~ #replaceable if predicate arbiterlib:random/50 run setblock ~ ~ ~ water
+
+playsound item.bucket.empty player @a ~ ~ ~ 0.8 1
+function arbiterlib:lib/ray/cleanup

@@ -1,0 +1,31 @@
+{
+  "id": "sulfur_expansion",
+  "name": "Example Datapack",
+  "description": "Description",
+  "license": "MIT",
+  "authors": ["bluffcon", "ArbiterLib"],
+  "homepage": "https://modrinth.com/datapack/sulfur_expansion",
+  "sources": "https://github.com/bluffcon/sulfur_expansion",
+  "issues": "https://github.com/bluffcon/sulfur_expansion/issues",
+  "icon": "pack.png",
+
+  "main_mod": false,
+
+  "library": {
+    "id": "arbiterlib",
+    "modrinth_project_id": "aHzaVmyo",
+    "min_version": 26
+  },
+
+  "modrinth": {
+    "project_id": "peGioya3",
+    "game_versions": ["26.3"],
+    "channel": "release",
+    "environment": "server_only_client_optional"
+  },
+
+  "resource_pack": {
+    "present": false,
+    "required": false
+  }
+}

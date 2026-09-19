@@ -1,0 +1,2 @@
+execute as @a[tag=sulfur_expansion.delayed_return] run loot give @s loot sulfur_expansion:sulfur_ball
+execute as @a[tag=sulfur_expansion.delayed_return] run tag @s remove sulfur_expansion.delayed_return
