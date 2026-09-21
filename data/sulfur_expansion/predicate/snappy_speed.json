@@ -1,0 +1,19 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "movement": {
+                    "vertical_speed": {
+                        "max": 2
+                    },
+                    "horizontal_speed": {
+                        "max": 2
+                    }
+                }
+            }
+        }
+    ]
+}

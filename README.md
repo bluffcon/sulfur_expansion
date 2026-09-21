@@ -22,3 +22,11 @@ Includes:
 3. Errors and tries to disable itself when ArbiterLib is missing
 4. Sends message on load
 5. Upload script that makes github release and modrinth upload with the pack zip and mod jar
+
+
+
+
+![Project banner](https://github.com/bluffcon/sulfur_expansion/blob/master/sulfur_expansion.png?raw=true)
+
+# Sulfur Expansion!
+

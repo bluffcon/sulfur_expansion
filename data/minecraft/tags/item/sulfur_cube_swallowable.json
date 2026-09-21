@@ -1,5 +1,6 @@
 {
     "values": [
-        "#sulfur_expansion:archetype/sand", "#sulfur_expansion:archetype/gravel"
+        "#sulfur_expansion:archetype/sand", "#sulfur_expansion:archetype/gravel",
+        "#sulfur_expansion:archetype/snappy_heavy", "#sulfur_expansion:archetype/snappy_regular"
     ]
 }
