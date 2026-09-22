@@ -5,6 +5,8 @@
 
 This datapack is a thoughtful continuation of the **Chaos Cubed 26.2** Minecraft drop! It adds some new archetypes with special abilities, a Sulfur Ball drop, and other cool things!
 
+[**Sulfur Expansion on Modrinth**](https://modrinth.com/project/sulfur-expansion)
+
 ### ⚠️ Requires ArbiterLib (latest) **datapack** and **resources**. Get them on [Modrinth](https://modrinth.com/datapack/arbiterlib) | [GitHub](github.com/bluffcon/arbiterlib)
 
 Sulfur Expansion cannot be used on Realms because it uses Experimental Settings (New Sulfur Cube Archetypes).
