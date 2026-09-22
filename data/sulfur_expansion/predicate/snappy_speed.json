@@ -10,7 +10,7 @@
                         "max": 2
                     },
                     "horizontal_speed": {
-                        "max": 2
+                        "max": 2.5
                     }
                 }
             }

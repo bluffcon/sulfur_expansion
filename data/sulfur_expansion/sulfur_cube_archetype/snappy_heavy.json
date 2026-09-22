@@ -19,7 +19,7 @@
       "operation": "add_value"
     },
     {
-      "amount": -0.9499999992549419,
+      "amount": -0.3290,
       "attribute": "minecraft:friction_modifier",
       "id": "minecraft:slow_sliding_mul_friction_modifier",
       "operation": "add_multiplied_total"
