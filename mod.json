@@ -1,7 +1,7 @@
 {
   "id": "sulfur_expansion",
-  "name": "Example Datapack",
-  "description": "Description",
+  "name": "Sulfur Expansion",
+  "description": "New non-world content for Chaos Cubed - Sulfur utilities and more uses for the Sulfur Cube!",
   "license": "MIT",
   "authors": ["bluffcon", "ArbiterLib"],
   "homepage": "https://modrinth.com/datapack/sulfur_expansion",
@@ -14,7 +14,7 @@
   "library": {
     "id": "arbiterlib",
     "modrinth_project_id": "aHzaVmyo",
-    "min_version": 26
+    "min_version": 30
   },
 
   "modrinth": {
