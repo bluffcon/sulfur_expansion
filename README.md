@@ -19,7 +19,9 @@ Adult Sulfur Cubes now drop Sulfur Balls when killed. These are a crafting mater
 
 You can use the Hydrated Sulfur Ball again and it will place water where you're looking with a 50% chance.
 
-Sulfur Balls can be used to feed baby Sulfur Cubes to make them grow up faster. Slimeballs can no longer be used
+Sulfur Balls can be used to feed baby Sulfur Cubes to make them grow up faster. Slimeballs can no longer be used as food.
+
+This can't be used in Adventure Mode.
 
 ### Cinnabar Feed [Item]
 
@@ -28,6 +30,8 @@ A paste of cinnabar and leaves, it can feed baby Sulfur Cubes as an alternative 
 ### Small Sulfur Cube [Item]
 
 A small adult Sulfur Cube. It is crafted in the Arbiter Workbench from Sulfur Balls. When used it spawns a small-sized Sulfur Cube that's the same size as a baby one, but can consume blocks and be punched safely. `Recipe: Any swallowable block surrounded by 8 Sulfur Balls`
+
+This can't be used in Adventure Mode.
 
 ### Froglight Sulfate [Block]
 
