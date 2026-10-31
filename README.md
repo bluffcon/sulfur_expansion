@@ -17,7 +17,7 @@ Sulfur Expansion cannot be used on Realms because it uses Experimental Settings 
 
 Adult Sulfur Cubes now drop Sulfur Balls when killed. These are a crafting material but also a tool - when looking at a water block, you can use it to store water in a stackable, storable Hydrated Sulfur Ball item!
 
-You can use the Hydrated Sulfur Ball again and it will place water where you're looking with a 50% chance.
+You can use the Hydrated Sulfur Ball again and it will place water where you're looking with a 50% chance. It can also place water mid-air.
 
 Sulfur Balls can be used to feed baby Sulfur Cubes to make them grow up faster. Slimeballs can no longer be used as food.
 
