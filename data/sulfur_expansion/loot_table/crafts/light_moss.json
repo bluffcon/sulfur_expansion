@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "moss_block",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 8
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "item_name": {"translate": "item.sulfur_expansion.light_moss"},
+                                "lore": [
+                                    {
+                                        "translate": "item.sulfur_expansion.light_moss.description",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "id.sulfur_expansion",
+                                        "color": "blue",
+                                        "italic": false
+                                    }
+                                ],
+                                "item_model": "arbiterlib:sulfur_expansion/light_moss",
+                                "custom_data": {
+                                    "arbiterlib": {
+                                        "id": "light_moss",
+                                        "namespace": "sulfur_expansion"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

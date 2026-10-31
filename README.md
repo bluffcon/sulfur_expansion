@@ -49,6 +49,9 @@ These Sulfur Cubes will snap to the block grid when slowing down. They will cons
 - Crafter
 > Very slow and doesn't have attack knockback, can only be pushed by a player. Perfect for moving one block at a time.
 
+### Light Moss [Achetype]
+
+By mixing 8 moss and a Phantom Membrane in a Workbench you can obtain special Light Moss. By putting it inside of a Sulfur Cube it'll gain levitation. It looks like regular moss blocks, and can't be placed down; placing it in the world will free it of its levitation properties and turn it back into regular moss.
 
 ### Sand & Gravel [Archetypes]
 

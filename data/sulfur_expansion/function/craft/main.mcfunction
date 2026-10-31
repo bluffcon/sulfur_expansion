@@ -47,3 +47,21 @@ unless items block ~ ~ ~ container.21 * \
 \
 run return run function arbiterlib:craft/workbench/craft/macro_vanilla_output \
 {namespace:"minecraft", item:"gunpowder", translation:"item.minecraft.gunpowder", model:"gunpowder", max_stack:64, count:2}
+
+
+
+execute \
+if items block ~ ~ ~ container.1 #moss_blocks \
+if items block ~ ~ ~ container.2 #moss_blocks \
+if items block ~ ~ ~ container.3 #moss_blocks \
+\
+if items block ~ ~ ~ container.10 #moss_blocks \
+if items block ~ ~ ~ container.11 phantom_membrane \
+if items block ~ ~ ~ container.12 #moss_blocks \
+\
+if items block ~ ~ ~ container.19 #moss_blocks \
+if items block ~ ~ ~ container.20 #moss_blocks \
+if items block ~ ~ ~ container.21 #moss_blocks \
+\
+run return run function arbiterlib:craft/workbench/craft/macro \
+{namespace:"sulfur_expansion", loottable:"light_moss", rarity:"common", max_stack:64, count:8}
